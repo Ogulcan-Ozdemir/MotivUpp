@@ -2,11 +2,11 @@ import * as firebase from 'firebase';
 let _firebase;
 if (!firebase.apps.length) {
     _firebase = firebase.initializeApp({
-        apiKey: "AIzaSyCZCXnhQOUjTWKLZIdPn9xDFXZQuDAtEbk",
-        authDomain: "gamificationproject-8697a.firebaseapp.com",
-        databaseURL: "https://gamificationproject-8697a.firebaseio.com",
-        projectId: "gamificationproject-8697a",
-        storageBucket: "gamificationproject-8697a.appspot.com",
+        apiKey: "<apiKey>",
+        authDomain: "<authDomain>",
+        databaseURL: "<databaseURL>",
+        projectId: "<projectId>",
+        storageBucket: "<storageBucket>",
     });
 }else {
     _firebase=firebase;
